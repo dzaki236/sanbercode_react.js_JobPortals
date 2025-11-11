@@ -1,9 +1,8 @@
 
 import { Navbar as Navy, NavbarBrand, NavbarCollapse, NavbarLink, NavbarToggle } from "flowbite-react";
-import { Link } from "react-router-dom";
 function Navbar() {
     return (
-        <Navy rounded className="p-4 mx-auto">
+        <Navy rounded className="p-4 mx-auto shadow-sm">
             <NavbarToggle />
             <NavbarCollapse>
                 <NavbarLink href="/">

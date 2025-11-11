@@ -8,6 +8,7 @@ import Home from './pages/Home'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Materi from './pages/Materi'
+import NotFound from './pages/NotFound'
 
 function App() {
 
@@ -18,6 +19,8 @@ function App() {
                 <Routes>
                     <Route path='/' element={<Home />} />
                     <Route path='/materi' element={<Materi />} />
+                    <Route path="*" element={<NotFound />} />
+
                 </Routes>
             </BrowserRouter>
             <Footer />
