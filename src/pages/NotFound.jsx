@@ -1,11 +1,6 @@
-import React from "react";
 import { Button } from "flowbite-react";
 import { Link } from "react-router-dom";
 
-/**
- * 404 NotFound component — responsive, accessible.
- * Uses Flowbite React Button for consistent UI.
- */
 export default function NotFound() {
     return (
         <main className="min-h-screen bg-gray-50 flex items-center justify-center px-6 py-12">

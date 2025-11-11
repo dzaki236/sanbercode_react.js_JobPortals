@@ -1,4 +1,4 @@
-import { Card, Label, TextInput } from "flowbite-react";
+import { Label, TextInput } from "flowbite-react";
 import ApiQuery from "../hooks/ApiQuery";
 import { getJobList } from "../hooks/ApiLogic";
 import { Badge } from "flowbite-react";

@@ -1,5 +1,5 @@
 
-import { Navbar as Navy, NavbarBrand, NavbarCollapse, NavbarLink, NavbarToggle } from "flowbite-react";
+import { Navbar as Navy, NavbarCollapse, NavbarLink, NavbarToggle } from "flowbite-react";
 function Navbar() {
     return (
         <Navy rounded className="p-4 mx-auto shadow-sm">

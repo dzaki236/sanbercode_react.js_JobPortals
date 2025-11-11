@@ -8,7 +8,6 @@ export const instanceApi = axios.create({
 });
 
 export async function getJobList() {
-    // const data = [];
     var data;
     await instanceApi.get('jobs').then((res) => {
         data = res.data;
@@ -20,7 +19,6 @@ export async function getJobList() {
     return data;
 }
 export async function getStudentsScoreList() {
-    // const data = [];
     var data;
     await instanceApi.get('student-scores').then((res) => {
         data = res.data;
